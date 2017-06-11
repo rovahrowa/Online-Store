@@ -1,0 +1,25 @@
+{
+  "name": "online-store",
+  "version": "1.0.0",
+  "description": "An online Store Web Applicatio",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rovahrowa/Online-Store.git"
+  },
+  "keywords": [
+    "node",
+    "ndemon",
+    "item",
+    "database"
+  ],
+  "author": "Danstan Otieno Onyango",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rovahrowa/Online-Store/issues"
+  },
+  "homepage": "https://github.com/rovahrowa/Online-Store#readme"
+}
