@@ -24,4 +24,14 @@ const storeSchema = new mongoose.Schema({
 
 })
 
+//before storing a store, we generate a slug
+storeSchema.pre('save', function (next) {
+    if(!this.isModified('name')){
+        next();
+        return;
+    }
+    this.slug = slug(this.name)
+    next()
+})
+
 module.exports = mongoose.model('store', storeSchema)
